@@ -3,7 +3,8 @@ h1{
     background-color: rgb(243, 185, 211)
 }
 body{
-    background-color:rgb(151, 47, 47);
+    /*background-color:rgb(151, 47, 47);*/
+    background-image: url(download\ \(1\).jfif) ;
     text-align: center;
 }
 img{
