@@ -1,5 +1,7 @@
 header{
     background-color: rgb(104, 20, 41);
+    height: 200px;
+    padding: 20px 0;
 }
 nav li{
     display:inline;
@@ -8,7 +10,44 @@ nav li{
 nav a{
     text-decoration: none;
     text-transform: uppercase;
-    color: azure;
+    color: rgb(15, 219, 219);
     font-size: 22px;
     font-weight: bold;  
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0 ;
+}
+.servicos {
+    width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30 px 20 px;
+    box-sizing: border-box;
+}
+.servicos h2 {
+    font-size: 30 px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
