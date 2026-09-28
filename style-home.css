@@ -1,0 +1,18 @@
+h1{
+    color: rgba(116, 3, 65, 0.853);
+    background-color: rgb(243, 185, 211)
+}
+body{
+background-image: url(download\ \(1\).jfif);
+    /*background-color:rgb(151, 47, 47);*/
+    text-align: center;
+}
+img{
+    width: 400px;
+}
+footer{
+    background-color: azure;
+}
+p{
+    color: azure;
+}

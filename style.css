@@ -1,15 +1,83 @@
-h1{
-    color: rgba(116, 3, 65, 0.853);
-    background-color: rgb(243, 185, 211)
+header{
+    background-color: rgb(104, 20, 41);
+    height: 200px;
+    padding: 20px 0;
 }
-body{
-    /*background-color:rgb(151, 47, 47);*/
-    background-image: url("download\ \(1\).jfif") ;
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(15, 219, 219);
+    font-size: 22px;
+    font-weight: bold;  
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0 ;
+}
+.servicos {
+    width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    width: 30%;
     text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30 px 20 px;
+    box-sizing: border-box;
 }
-img{
-    width: 400px;
+.servicos h2 {
+    font-size: 300 px;
+    font-weight: bold;
+}
+
+.servicos img{
+    width: 200px;
+}
+
+.descricao {
+    font-size: 18px;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 footer{
-    background-color: azure;
+    text-align: center;
+    background-color: rgb(104, 20, 41);;
+    padding: 40px 0 ;
+}
+footer img {
+    width: 350px ;
+}
+main{
+    width: 940px;
+    margin:0 auto;
+}
+form{
+    margin: 40px 0;
+} 
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
