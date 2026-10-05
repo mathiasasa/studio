@@ -29,7 +29,29 @@
              <label for="telefone"> telefone</label>
             <input type="text" id="telefone">
 
-            <input type="submit" value="enviar formulário">
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email
+
+                </label>
+
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone
+
+                </label>
+
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    Whatsapp
+
+                </label>
+                
+            </div>
+
+            <input type="submit" value="enviar formulário" class="enviar">
 
         </form>
     </main>
