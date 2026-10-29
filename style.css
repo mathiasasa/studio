@@ -14,6 +14,12 @@ nav a{
     font-size: 22px;
     font-weight: bold;  
 }
+
+nav a:hover{
+    color:aliceblue;
+    text-decoration:underline;
+
+}
 .caixa{
     position: relative;
     width: 940px;
@@ -37,6 +43,15 @@ nav{
     margin: 0 1.5%;
     padding: 30 px 20 px;
     box-sizing: border-box;
+    border: 2px solid rgb(255, 29, 78);
+}
+.servicos li:hover{
+    color: rgb(175, 51, 96);
+    border-color:bisque;
+
+}
+.servicos li:active{
+   background-color: rgb(255, 25, 98); 
 }
 .servicos h2 {
     font-size: 300 px;
