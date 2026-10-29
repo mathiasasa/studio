@@ -3,6 +3,9 @@ header{
     height: 200px;
     padding: 20px 0;
 }
+h1 img{
+    width: 150px;
+}
 nav li{
     display:inline;
     margin: 0 0 0 15px;
@@ -19,7 +22,7 @@ nav a:hover{
     color:aliceblue;
     text-decoration:underline;
 
-}
+}                                          
 .caixa{
     position: relative;
     width: 940px;
