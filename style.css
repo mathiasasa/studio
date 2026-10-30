@@ -27,6 +27,7 @@ nav a:hover{
     position: relative;
     width: 940px;
     margin: 0 auto;
+    
 }
 nav{
     position: absolute;
@@ -118,5 +119,15 @@ form input{
      transform: rotate(360deg);
      
 }
-
+/*p{
+    color: rgb(100, 24, 24);
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+*/
 /*   comentario  */
+.meiodoinicio{
+    width: 540px;
+    background-color: rgb(100, 27, 43);
+    
+}
