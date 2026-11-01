@@ -127,7 +127,6 @@ form input{
 */
 /*   comentario  */
 .meiodoinicio{
-    width: 540px;
-    background-color: rgb(100, 27, 43);
-    
+    width: 100%;
+    background: transparent;
 }
