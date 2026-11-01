@@ -1,18 +1,24 @@
-h1{
+h1 {
     color: rgba(116, 3, 65, 0.853);
     background-color: rgb(243, 185, 211);
 }
-body{
-background-image: url(download\ \(1\).jfif);
-    /*background-color:rgb(151, 47, 47);*/
+
+body {
+    background-image: url("download (1).jfif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
 }
-img{
+
+img {
     width: 400px;
 }
+
 footer {
-    background-color: rgb(104, 20, 41);
+    background: transparent;
 }
-p{
+
+p {
     color: azure;
 }
